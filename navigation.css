@@ -74,7 +74,6 @@ body {
     margin-top: 2.5vh;
 
     transition: color 0.2s;
-    transition: font-size 0.2s;
 }
 .navigation:visited {
     text-decoration: none;
@@ -83,7 +82,6 @@ body {
 .navigation:hover {
     text-decoration: none;
     color: #E6DEDB;
-    font-size: 3.1vw;
 }
 
 @media screen and (min-width: 900px) {
