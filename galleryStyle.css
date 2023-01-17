@@ -3,12 +3,12 @@ body {
 }
 
 .background {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 20vw;
     border-radius: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 
     position: relative;
 
