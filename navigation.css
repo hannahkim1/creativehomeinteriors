@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'text';
+    src: url("fonts/ABeeZee/ABeeZee-Regular.ttf");
+}
+@font-face {
+    font-family: 'titleBold';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Bold.ttf");
+}
+@font-face {
+    font-family: 'titleNormal';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+}
+@font-face {
+    font-family: 'titleSoft';
+    src: url("fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf");
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+.navigationWrap {
+    position: sticky;
+    top: 0;
+}
+
+.navigationBar {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    background-color: #644740;
+    opacity: 0.9;
+
+    align-self: flex-start;
+}
+
+
+.navigation {
+    text-decoration: none;
+    font-family: "titleNormal";
+
+    position: relative;
+
+    color: #fff;
+    text-align: center;
+
+    font-size: 3vw;
+
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+}
+.navigation:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.navigation:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+    .navigation {
+        text-decoration: none;
+        font-family: "titleNormal";
+    
+        position: relative;
+    
+        color: #fff;
+        text-align: center;
+    
+        font-size: 2vw;
+    
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-bottom: 2.5vh;
+        margin-top: 2.5vh;
+    }
+}
+
+
+.logo {
+    width: 3vw;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    background-color: #644740;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+
+.footerSpecific {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+

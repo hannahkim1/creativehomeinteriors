@@ -1,0 +1,80 @@
+
+/* background photo */
+.topBackground {
+    background-image: url(photos/backgroundHome.jpeg);
+    height: 700px;
+    width: 100%;
+    object-fit: fill;
+    display: block;
+
+}
+
+/* title section */
+.wrapTitle {
+    margin-left: 13vw;
+    margin-top: 19vh;
+}
+
+
+.title {
+    background-color: hsla(63, 0%, 100%, 0.8);
+    border-radius: 25px;
+
+    width: 450px;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'titleSoft';
+    font-size: 55px;
+    
+    padding: 30px;
+
+}
+
+/* body */
+.overallBody {
+    display: flex;
+    top: 0;
+}
+
+.aboutUs {
+    flex: 50%;
+    background-color: #644740;
+    color: white;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.aboutUsText {
+    width: 60%;
+    margin: auto;
+    font-family: "text";
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "titleSoft";
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "titleSoft"; 
+}
+
+.featured {
+    flex: 50%;
+    background-color: #E6DEDB;
+    color: black;
+    padding: 30px;
+
+    text-align: center;
+
+}
+.featured p {
+    font-family: "text";
+    font-size: 20px;
+}
+
